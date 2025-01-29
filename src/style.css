@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+button {
+  cursor: pointer;
+}
+
+body {
+  font-family: 'IBM Plex Mono', serif;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+}

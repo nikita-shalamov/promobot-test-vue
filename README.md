@@ -1,6 +1,47 @@
-# Vue 3 + TypeScript + Vite
+# Тестовое задание Промобот (Vue.js)
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Описание
+Тестовое задание для компании **Промобот**. Проект реализован на Vue.js. Основная задача – управление данными пользователей. В интерфейсе можно удалять, добавлять, изменять и просматривать пользователей.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
-# promobot-test-vue
+## Стек технологий
+
+- **Vue.js 3**
+- **TypeScript**
+- **Tailwind** 
+- **Vite**
+- **Axios**
+- **eslint**
+
+## Установка и запуск проекта
+
+Для того чтобы запустить проект локально, выполните следующие шаги:
+
+### 1. Клонируйте репозиторий:
+
+```bash
+git clone https://github.com/nikita-shalamov/promobot-test-vue.git
+```
+
+### 2. Перейдите в проект:
+
+```bash
+cd promobot-test-vue
+```
+
+### 3. Установите зависимости:
+
+```bash
+npm install
+```
+
+### 4. Добавьте .env файл:
+
+```bash
+VITE_API_URL=https://your-api-url.com
+```
+
+### 5. Запустите проект:
+
+```bash
+npm run dev
+```
